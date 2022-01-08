@@ -24,6 +24,4 @@ def decrypt(key,ciphertext):
     return plaintext
 
 
-if __name__ == '__main__':
-    print(encrypt(1, "BASE"))
-    print(decrypt(1, encrypt(1, "BASE")))
+
